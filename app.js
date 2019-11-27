@@ -1,12 +1,18 @@
 const express = require("express");
 const app = express();
 
-app.use((req, res, next) => {
+const productRoutes = require("./api/routes/products");
+const orderRoutes = require("./api/routes/order");
+
+app.use("/products", productRoutes);
+app.use("/orders", orderRoutes);
+
+/*  app.use((req, res, next) => {
 
     res.status(200).json({
         message: 'Request Success!'
     });
-/* 
+
     switch (res.status) {
         case 200:
 
@@ -17,24 +23,24 @@ app.use((req, res, next) => {
             break;
 
 
-    } */
+    } 
 
     checkResponseStatus(200);
-    /*  res.status(200).json({
+     res.status(200).json({
          message: 'Connection Ready!'
-     }); */
+     }); 
     next();
 });
 
+ */
 
 
 
-
-
+/* 
 function checkResponseStatus(statusMessage) {
     console.log("statusMessage:" + statusMessage);
 }
-
+ */
 
 
 
