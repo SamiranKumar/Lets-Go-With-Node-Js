@@ -1,0 +1,25 @@
+{
+  "name": "lets-go-with-node-js",
+  "version": "1.0.0",
+  "description": "Shop restful api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamiranKumar/Lets-Go-With-Node-Js.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api",
+    "socket.io"
+  ],
+  "author": "Devo Samiran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamiranKumar/Lets-Go-With-Node-Js/issues"
+  },
+  "homepage": "https://github.com/SamiranKumar/Lets-Go-With-Node-Js#readme"
+}
