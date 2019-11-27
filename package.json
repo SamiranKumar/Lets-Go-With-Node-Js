@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/SamiranKumar/Lets-Go-With-Node-Js/issues"
   },
-  "homepage": "https://github.com/SamiranKumar/Lets-Go-With-Node-Js#readme"
+  "homepage": "https://github.com/SamiranKumar/Lets-Go-With-Node-Js#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
