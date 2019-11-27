@@ -4,6 +4,11 @@ const app = express();
 const morgan = require("morgan"); // morgan lib incoming request log catch
 app.use(morgan("dev")); //apply on express
 
+
+const bodyParser = require("body-parser");
+app.use(bodyParser.urlencoded({extended:false}))
+app.use(bodyParser.json())
+
 const productRoutes = require("./api/routes/products");
 const orderRoutes = require("./api/routes/order");
 
