@@ -1,11 +1,15 @@
 const express = require("express");
 const app = express();
 
+const morgan = require("morgan"); // morgan lib incoming request log catch
+app.use(morgan("dev")); //apply on express
+
 const productRoutes = require("./api/routes/products");
 const orderRoutes = require("./api/routes/order");
 
 app.use("/products", productRoutes);
 app.use("/orders", orderRoutes);
+
 
 /*  app.use((req, res, next) => {
 
