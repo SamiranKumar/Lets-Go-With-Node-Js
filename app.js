@@ -4,7 +4,7 @@ const app = express();
 app.use((req, res, next) => {
 
     res.status(200).json({
-        message: 'Connection Ready!'
+        message: 'Request Success!'
     });
 /* 
     switch (res.status) {
