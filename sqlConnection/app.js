@@ -14,7 +14,7 @@ app.use(bodyParser.json())
 const connection = mySql.createConnection({
 host:"localhost",
 user:"root",
-password:"",
+password:"samiran123",
 database:"shpoDb"
 
 });
