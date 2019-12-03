@@ -14,8 +14,8 @@ app.use(bodyParser.json())
 const connection = mySql.createConnection({
 host:"localhost",
 user:"root",
-password:"samiran123",
-database:"shpoDb"
+password:"11111111",
+ 
 
 });
 /* 
@@ -28,8 +28,8 @@ connection.connect(function(err){
 });
  */
 
- connection.connect();
+ //connection.connect();
 
- connection.on("error",function(err){
-console.error(err);
- })
+//  connection.on("error",function(err){
+//     console.error(err);
+//  })

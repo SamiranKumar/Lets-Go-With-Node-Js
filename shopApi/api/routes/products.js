@@ -41,4 +41,16 @@ router.delete("/:productId",(req,res,next) =>{
 
 });
 
+
+
+const fs = require("fs");
+
+
+function readData(){
+    var data = fs.readFileSync("data/word.json");
+    var word = JSON.parse(data);
+    console.log(word);
+}
+
+
 module.exports = router;

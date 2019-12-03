@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 
+
 const morgan = require("morgan"); // morgan lib incoming request log catch
 app.use(morgan("dev")); //apply on express
 
