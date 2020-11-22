@@ -1,4 +1,4 @@
-//node function-arrow-function.js
+//node practice/function-arrow-function.js
 
 //-----------------------------------------------------------------------------
 /*JavaScript Function
